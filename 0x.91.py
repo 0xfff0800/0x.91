@@ -42,7 +42,7 @@ if falah == '1':
     headers = {
     "Accept": "*/*",
     "User-Agent": "Rave/1541 CFNetwork/1206 Darwin/20.1.0",
-    "Authorization": "Bearer 478e7ea5e4f37762b3e0887da1c92a81",
+    "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
     "Host": "api.red.wemes.co.global.prod.fastly.net",
     "Wemesh-Api-Version":"3.0",
     "Wemesh-Platform": "ios",
@@ -72,7 +72,7 @@ if falah == '2':
     headers = {
     "Accept": "*/*",
     "User-Agent": "Rave/1541 CFNetwork/1206 Darwin/20.1.0",
-    "Authorization": "Bearer 478e7ea5e4f37762b3e0887da1c92a81",
+    "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
     "Host": "api.red.wemes.co.global.prod.fastly.net",
     "Wemesh-Api-Version":"3.0",
     "Wemesh-Platform": "ios",
@@ -93,7 +93,7 @@ if falah == '3':
     headers = {
         "Accept": "*/*",
         "User-Agent": "Rave/1541 CFNetwork/1206 Darwin/20.1.0",
-        "Authorization": "Bearer 478e7ea5e4f37762b3e0887da1c92a81",
+        "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
         "Host": "api.red.wemes.co.global.prod.fastly.net",
         "Wemesh-Api-Version": "3.0",
         "Wemesh-Platform": "ios",
