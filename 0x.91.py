@@ -8,8 +8,6 @@ try:
    init()
 except ImportError:
     os.system("pip3 install colorama")
-import time
-import sys
 import socket
 import threading
 import platform
@@ -41,12 +39,14 @@ if falah == '1':
     url ="https://pinterest.com//meshes/self?deviceId=0AF99238F629407CA0889D72683B423E&lang=ar&limit=10000&public=true"
     headers = {
     "Accept": "*/*",
-    "User-Agent": "Rave/1541 CFNetwork/1206 Darwin/20.1.0",
+    "User-Agent": "Rave/1688 CFNetwork/1206 Darwin/20.1.0",
     "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
     "Host": "api.red.wemes.co.global.prod.fastly.net",
-    "Wemesh-Api-Version":"3.0",
+	"Request-Ts": "1647718643618",
+    "Wemesh-Api-Version":"4.0",
+	"Request-Hash": "amuYkcp7uT8t2xs7zY+DU3Fg4tfXCK2m6xb6miQ1/qc=",
     "Wemesh-Platform": "ios",
-    "Client-Version": "5.5.3"
+    "Client-Version": "6.2.7"
 }
     response = requests.request ("GET", url, headers=headers).text
     info = json.loads (response)
@@ -71,12 +71,14 @@ if falah == '2':
     url ="https://pinterest.com/users/search?all=true&q="+flo+""
     headers = {
     "Accept": "*/*",
-    "User-Agent": "Rave/1541 CFNetwork/1206 Darwin/20.1.0",
+    "User-Agent": "Rave/1688 CFNetwork/1206 Darwin/20.1.0",
     "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
     "Host": "api.red.wemes.co.global.prod.fastly.net",
-    "Wemesh-Api-Version":"3.0",
+	"Request-Ts": "1647718643618",
+    "Wemesh-Api-Version":"4.0",
+	"Request-Hash": "amuYkcp7uT8t2xs7zY+DU3Fg4tfXCK2m6xb6miQ1/qc=",
     "Wemesh-Platform": "ios",
-    "Client-Version": "5.5.3"
+    "Client-Version": "6.2.7"
 }
     response = requests.request ("GET", url, headers=headers).text
     info = json.loads (response)
@@ -91,13 +93,15 @@ if falah == '3':
     flo = input (end_banner_color + 'id room? -> ')
     url = "https://pinterest.com/meshes/" + flo + ""
     headers = {
-        "Accept": "*/*",
-        "User-Agent": "Rave/1541 CFNetwork/1206 Darwin/20.1.0",
-        "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
-        "Host": "api.red.wemes.co.global.prod.fastly.net",
-        "Wemesh-Api-Version": "3.0",
-        "Wemesh-Platform": "ios",
-        "Client-Version": "5.5.3"
+    "Accept": "*/*",
+    "User-Agent": "Rave/1688 CFNetwork/1206 Darwin/20.1.0",
+    "Authorization": "Bearer 0aaeec5219f7be46840ec732043074cb",
+    "Host": "api.red.wemes.co.global.prod.fastly.net",
+	"Request-Ts": "1647718643618",
+    "Wemesh-Api-Version":"4.0",
+	"Request-Hash": "amuYkcp7uT8t2xs7zY+DU3Fg4tfXCK2m6xb6miQ1/qc=",
+    "Wemesh-Platform": "ios",
+    "Client-Version": "6.2.7"
     }
     response = requests.request ("GET", url, headers=headers).text
     info = json.loads (response)
